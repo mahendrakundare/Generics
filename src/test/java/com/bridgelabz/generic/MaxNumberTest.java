@@ -18,4 +18,11 @@ public class MaxNumberTest {
         Float result = maximumNumber.toFindMaxFloatNumber();
         Assert.assertEquals((Float)35.8f,result);
     }
+
+    @Test
+    public void toTestMaximumString(){
+        MaximumNumber maximumNumber = new MaximumNumber();
+        String result = maximumNumber.toFindMaxString();
+        Assert.assertEquals("superman",result);
+    }
 }

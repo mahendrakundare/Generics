@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.generic.MaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:59:05" hostname="admin1-LIVA-Z2V" time="0.004">
+<testsuite name="com.bridgelabz.generic.MaxNumberTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-11-28T11:16:37" hostname="admin1-LIVA-Z2V" time="5.821">
   <properties/>
-  <testcase name="toTestMaximumFloatNumber" classname="com.bridgelabz.generic.MaxNumberTest" time="0.004"/>
+  <testcase name="toTestMaximumString" classname="com.bridgelabz.generic.MaxNumberTest" time="5.821">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
