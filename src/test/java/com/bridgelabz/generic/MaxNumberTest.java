@@ -11,4 +11,11 @@ public class MaxNumberTest {
         Integer result = maximumNumber.toFindMaxNumber();
         Assert.assertEquals((Integer) 1000, result);
     }
+
+    @Test
+    public void toTestMaximumFloatNumber() {
+        MaximumNumber maximumNumber = new MaximumNumber();
+        Float result = maximumNumber.toFindMaxFloatNumber();
+        Assert.assertEquals((Float)35.8f,result);
+    }
 }
