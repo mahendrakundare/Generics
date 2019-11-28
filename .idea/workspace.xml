@@ -81,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MaxNumberTest.toTestMaximumByPassingFloatsToConstructor">
+  <component name="RunManager" selected="Gradle.MaxNumberTest">
     <configuration name="MaxNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxNumberTest" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumByPassingFloatsToConstructor" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumByPassingStringToConstructor" />
-        <item itemvalue="Gradle.MaxNumberTest" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumAfterCreatingGeneric" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumNumber" />
       </list>
