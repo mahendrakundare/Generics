@@ -6,9 +6,9 @@ import org.junit.Test;
 public class MaxNumberTest {
 
     @Test
-    public void tofindMaximumNumber() {
+    public void toTestMaximumNumber() {
         MaximumNumber maximumNumber = new MaximumNumber();
-        Integer result = maximumNumber.findMaxNumber();
-        Assert.assertEquals((Integer) 200, result);
+        Integer result = maximumNumber.toFindMaxNumber();
+        Assert.assertEquals((Integer) 1000, result);
     }
 }
