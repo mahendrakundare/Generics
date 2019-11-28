@@ -5,6 +5,7 @@ public class ArrayExample<A, B, C> {
     B[] myBArray;
     C[] myCArray;
 
+
     public ArrayExample(A[] myXArray, B[] myBArray, C[] myCArray) {
         this.myArray = myXArray;
         this.myBArray = myBArray;

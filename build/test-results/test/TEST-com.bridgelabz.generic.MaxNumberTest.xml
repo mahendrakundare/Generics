@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.generic.MaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T10:39:54" hostname="admin1-LIVA-Z2V" time="0.005">
+  <properties/>
+  <testcase name="tofindMaximumNumber" classname="com.bridgelabz.generic.MaxNumberTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
