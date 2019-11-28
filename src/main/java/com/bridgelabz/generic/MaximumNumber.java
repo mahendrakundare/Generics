@@ -1,13 +1,24 @@
 package com.bridgelabz.generic;
 
-public class MaximumNumber {
+public class MaximumNumber<T extends Comparable > {
+
+    T value1;
+    T value2;
+    T value3;
+
+    public MaximumNumber(T value1, T value2, T value3) {
+        this.value1 = value1;
+        this.value2 = value2;
+        this.value3 = value3;
+    }
+
     //generic method
-    public static <E extends Comparable<E>> E toFindMax(E a, E b, E c) {
-        E max = a;
-        if (b.compareTo(max)>0)
-            max=b;
-        if (c.compareTo(max)>0)
-            max=c;
+    public <T extends Comparable> T toFindMax() {
+        T max = (T) value1;
+        if (value2.compareTo(max)>0)
+            max= (T) value2;
+        if (value3.compareTo(max)>0)
+            max= (T) value3;
         return max;
     }
 }

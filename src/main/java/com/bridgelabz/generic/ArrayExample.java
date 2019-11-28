@@ -6,11 +6,14 @@ public class ArrayExample<A, B, C> {
     C[] myCArray;
 
 
+
+
     public ArrayExample(A[] myXArray, B[] myBArray, C[] myCArray) {
         this.myArray = myXArray;
         this.myBArray = myBArray;
         this.myCArray = myCArray;
     }
+
 
     public static void main(String[] args) {
         Integer integerArray[] = {1,2,3,4,5};
