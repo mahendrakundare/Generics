@@ -24,4 +24,11 @@ public class MaxNumberTest {
         Comparable comparable = stringMaximum.toFindMax();
         Assert.assertEquals("superman",comparable);
     }
+
+    @Test
+    public void when_Entered_Should_Return_Maximum_With_PrintMax() {
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<Integer>(10, 20, 30);
+        Object maximum=maximumNumber.toFindMax();
+        Assert.assertEquals((Integer)30,maximum);
+    }
 }
