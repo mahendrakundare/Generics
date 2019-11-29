@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5771716d-fc6c-4fbb-991c-e02f62fa9640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/generic/MaximumUsingOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/generic/MaxNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/bridgelabz/generic/MaxNumberTest.class" afterDir="false" />
@@ -77,27 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MaxNumberTest.toTestMaximumByPassingNumberUsingOption">
-    <configuration name="MaxNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.MaxNumberTest.toTestMaximumNumberOnPositoinTwoShouldReturnPositionTwoValue">
     <configuration name="MaxNumberTest.toTestMaximumByPassingNumberUsingOption" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,12 +96,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxNumberTest.toTestMaximumByPassingStringToConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxNumberTest.toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest.toTestMaximumByPassingStringToConstructor&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest.toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +116,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxNumberTest.toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxNumberTest.toTestMaximumNumberOnPositionThreeShouldReturnPositionThreeValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest.toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest.toTestMaximumNumberOnPositionThreeShouldReturnPositionThreeValue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxNumberTest.toTestMaximumNumberOnPositoinTwoShouldReturnPositionTwoValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.generic.MaxNumberTest.toTestMaximumNumberOnPositoinTwoShouldReturnPositionTwoValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxNumberTest.toTestMaximumNumberOnPositoinTwoShouldReturnPositionTwoValue" />
+        <item itemvalue="Gradle.MaxNumberTest.toTestMaximumNumberOnPositionThreeShouldReturnPositionThreeValue" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumByPassingNumberUsingOption" />
         <item itemvalue="Gradle.MaxNumberTest.when_Entered_Should_Return_Maximum_With_PrintMax" />
         <item itemvalue="Gradle.MaxNumberTest.toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue" />
-        <item itemvalue="Gradle.MaxNumberTest.toTestMaximumByPassingStringToConstructor" />
-        <item itemvalue="Gradle.MaxNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +219,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/generic/MaximumNumber.java</url>
           <line>16</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/generic/MaxNumberTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/generic/MaxNumberTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -38,4 +38,21 @@ public class MaxNumberTest {
         Assert.assertEquals((Integer)500,maximumUsingOption.check());
     }
 
+    @Test
+    public void toTestMaximumNumberOnPositionOneShouldReturnPositionOneValue() {
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<>(500, 10, 30);
+        Assert.assertEquals((Integer)500,maximumNumber.toFindMax());
+    }
+
+    @Test
+    public void toTestMaximumNumberOnPositoinTwoShouldReturnPositionTwoValue() {
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<Integer>(10, 35, 2);
+        Assert.assertEquals((Integer)35,maximumNumber.toFindMax());
+    }
+
+    @Test
+    public void toTestMaximumNumberOnPositionThreeShouldReturnPositionThreeValue() {
+        MaximumNumber<Integer> maximumNumber = new MaximumNumber<Integer>(20, 500, 1000);
+        Assert.assertEquals((Integer)1000,maximumNumber.toFindMax());
+    }
 }
