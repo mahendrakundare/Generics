@@ -31,4 +31,11 @@ public class MaxNumberTest {
         Object maximum=maximumNumber.toFindMax();
         Assert.assertEquals((Integer)30,maximum);
     }
+
+    @Test
+    public void toTestMaximumByPassingNumberUsingOption() {
+        MaximumUsingOption<Integer> maximumUsingOption = new MaximumUsingOption<Integer>(10, 20, 30, 500, 70);
+        Assert.assertEquals((Integer)500,maximumUsingOption.check());
+    }
+
 }
